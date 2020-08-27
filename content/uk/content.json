@@ -1,0 +1,68 @@
+{
+  "title": "ВІТАЄМО У ЛЬВОВІ!",
+  "subTitle": "Готель VOLTER чекає на Вас",
+  "teaserImage": "/images/teaser.jpg",
+  "dataImage": "/icons/data.svg",
+  "guestsImage": "/icons/guests.svg",
+  "aboutImage": "/images/about.png",
+  "galleryAbout": [
+    {
+      "img": "/images/gallery1.jpg"
+    },
+    {
+      "img": "/images/gallery2.jpg"
+    },
+    {
+      "img": "/images/gallery3.jpg"
+    }
+  ],
+  "galleryServices": [
+    {
+      "img": "/icons/services.svg",
+      "info": "Обладнанні номери"
+    },
+    {
+      "img": "/icons/breakfast.svg",
+      "info": "Сніданки"
+    },
+    {
+      "img": "/icons/restaurant.svg",
+      "info": "Ресторан"
+    },
+    {
+      "img": "/icons/TV.svg",
+      "info": "Супутникове ТБ"
+    },
+    {
+      "img": "/icons/centercity.svg",
+      "info": "Близько до центру"
+    },
+    {
+      "img": "/icons/parking.svg",
+      "info": "Паркінг"
+    },
+    {
+      "img": "/icons/conference.svg",
+      "info": "Конференц-сервіс"
+    },
+    {
+      "img": "/icons/buss.svg",
+      "info": "Чудове сполучення"
+    }
+  ],
+  "contactSoz":[
+    {
+      "src": "",
+      "img": "/icons/Booking.svg"
+    },
+    {
+      "src": "",
+      "img": "/icons/facebook.svg"
+    },
+    {
+      "src": "",
+      "img": "/icons/TripAdvisor.svg"
+    }
+  ],
+  "mapImage": "/images/map.jpg"
+}

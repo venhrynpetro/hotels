@@ -1,0 +1,108 @@
+.header{
+    position: relative;
+    width: 100%;
+    background-color: $background-gray;
+    padding: 15px 0;
+    position: absolute;
+    top: 0;
+    z-index: 9999;
+    @include sm {
+        background-color: $background-gray4;
+    }
+}
+.navigation{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    &_logo{
+        width: 176px;
+        height: auto;
+        object-fit: cover;
+        cursor: pointer;
+    }
+    &_menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-grow: 0.5;
+        @include sm {
+            width: 260px;
+            flex-direction: column;
+            flex-grow: 0;
+            position: absolute;
+            right: 0;
+            top: 100%;
+            background-color: $background-gray3;
+            padding: 47px 10px 38px;
+            border-radius: 0px 0px 0px 20px;
+        }
+        &_list{
+            display: flex;
+            align-items: center;
+            @include sm {
+                flex-direction: column;
+            }
+            &_link{
+                position: relative;
+                font-size: 14px;
+                line-height: 19px;
+                color: $color-white;
+                cursor: pointer;
+                margin-right: 35px;
+                transition: 0.3s all;
+                @include sm {
+                    font-size: 16px;
+                    text-align: center;
+                    max-width: 200px;
+                    margin: 0 0 31px;
+                    text-transform: uppercase;
+                    font-weight: 800;
+                }
+                &:after{
+                    content: ' ';
+                    position: absolute;
+                    left: 0;
+                    top: 100%;
+                    width: 0;
+                    height: 1px;
+                    background-color: $color-red;
+                    transition: 0.3s all;
+                }
+                &:hover{
+                    cursor: pointer;
+                    color: $color-red;
+                    &:after{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        &_language{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            &_link{
+                font-size: 14px;
+                line-height: 19px;
+                color: $color-white;
+                font-weight: 600;
+                transition: 0.3s all;
+                @include sm {
+
+                }
+                &_between{
+                    margin: 0 auto;
+                    margin-inline-start: 0;
+                    margin-inline-end: 0;
+                }
+                &_active, &:hover{
+                    cursor: pointer;
+                    color: $color-red;
+                }
+            }
+        }
+    }
+}

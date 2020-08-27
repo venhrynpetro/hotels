@@ -1,0 +1,17 @@
+{
+  "logo": "/images/logo.svg",
+  "list": [
+    {
+      "item": "Про нас",
+      "src": "about"
+    },
+    {
+      "item": "Послуги",
+      "src": "sevices"
+    },
+    {
+      "item": "Контакти та бронювання",
+      "src": "contact"
+    }
+  ]
+}
