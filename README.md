@@ -2,10 +2,10 @@
 
 ## How to use
 
-Install plugin **[gatsby-hospitality-core](https://bitbucket.org/pozitiff/gatsby-hospitality-core/src/master)**
+Install plugin **[gatsby-hospitality-core](https://github.com/venhrynpetro/hotelssrc/master)**
 
 ```
-npm i git+ssh://git@bitbucket.org/pozitiff/gatsby-hospitality-core.git#master
+npm i git+ssh://git@github.com/venhrynpetro/hotels
 ```
 and add to gatsby-config.js
 ```
